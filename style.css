@@ -2,4 +2,29 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+.menu-nav {
+  background-color: #8b0000;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  z-index: 1000;
+}
+.menu-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-nav li {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+}
